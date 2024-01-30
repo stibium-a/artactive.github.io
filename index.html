@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Artactive</title>
+</head>
+
+<body>
+  <div class=whole-wrapper>
+    <header class="header" id="header">
+
+      <div class="box">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__top">
+
+              <a class="logo" href="#">artactive</a>
+
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav-item">
+                    <a href="#about" class="nav-link">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#services" class="nav-link">Услуги</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Отзывы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#faq" class="nav-link">Faq</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">контакты</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="header__actions">
+
+                <a class="header__phone" href="tel:+79201488131">+7 (920) 148 81 31</a>
+
+                <button class="act-btn header-button open-modal-btn">Заказать звонок</button>
+
+              </div>
+
+              <button class="menu-toggler-box">
+                <label>
+                  <input type="checkbox" class="input-menu-toggler">
+                  <span class="icon-menu__line line-1"></span>
+                  <span class="icon-menu__line line-2"></span>
+                  <span class="icon-menu__line line-3"></span>
+                  <span class="icon-menu__line line-4"></span>
+                </label>
+              </button>
+
+            </div>
+
+            <div class="header__content">
+
+              <picture class="header__top-img-box">
+                <source type="image/webp" srcset="./images/header-top-image.webp">
+                <img class="header__top-img" src="./images/header-top-image.png" alt="printing">
+              </picture>
+
+              <div class="header__info-box">
+
+                <h1 class="title">размер <br> не имеет значения!</h1>
+                <p class="header__subtitle">Оперативная полиграфия и широкоформатная печать любого размера</p>
+
+                <div class="actions-box">
+                  <button class="act-btn act-btn--red">заказать печать</button>
+                  <span class="actions-box__description">с доставкой по Ярославлю и Ярославской области</span>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="header__bottom">
+              <figure class="header-bottom__icon-box">
+                <img class="header-bottom__icon" src="./images/icon-down.svg" width="19" height="31" alt="down">
+              </figure>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="toggler-box-placement-wrapper">
+          <div class="toggler-box">
+
+            <label class="custom-radio-label" for="radio1">
+              <input class="custom-radio" type="radio" name="my-radio-group" id="radio1" checked data-section="#"
+                data-mark="#header">
+
+              <span class="custom-radio-style" data-section="#"></span>
+            </label>
+
+            <label class="custom-radio-label" for="radio2">
+              <input class="custom-radio" type="radio" name="my-radio-group" id="radio2" data-section="#about">
+
+              <span class="custom-radio-style" data-section="#about"></span>
+            </label>
+
+            <label class="custom-radio-label" for="radio3">
+              <input class="custom-radio" type="radio" name="my-radio-group" id="radio3" data-section="#services">
+
+              <span class="custom-radio-style" data-section="#services"></span>
+            </label>
+
+            <label class="custom-radio-label" for="radio4">
+              <input class="custom-radio" type="radio" name="my-radio-group" id="radio4"
+                data-section="#interior-printing">
+
+              <span class="custom-radio-style" data-section="#interior-printing"></span>
+            </label>
+
+            <label class="custom-radio-label" for="radio5">
+              <input class="custom-radio" type="radio" name="my-radio-group" id="radio5"
+                data-section="#operative-polygraphy">
+
+              <span class="custom-radio-style" data-section="#operative-polygraphy"></span>
+            </label>
+
+            <label class="custom-radio-label" for="radio6">
+              <input class="custom-radio" type="radio" name="my-radio-group" id="radio6" data-section="#testimonials">
+
+              <span class="custom-radio-style" data-section="#testimonials"></span>
+            </label>
+
+            <label class="custom-radio-label" for="radio7">
+              <input class="custom-radio" type="radio" name="my-radio-group" id="radio7" data-section="#faq">
+
+              <span class="custom-radio-style" data-section="#faq"></span>
+            </label>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="popup">
+
+        <div class="popup-inner">
+
+          <button class="close-modal-btn"></button>
+
+          <div class="popup-content">
+            <p class="popup__question">Есть вопросы?</p>
+            <form action="#" class="call-order-form">
+              <h3 class="call-order-form__title">Закажите звонок</h3>
+              <input class="call-order-form__input name-input" type="text" placeholder="Имя">
+              <input class="call-order-form__input phone-input" type="number" placeholder="Телефон">
+              <button class="form-btn" type="submit">отправить</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </header>
+
+    <main class="main">
+
+      <section class="about" id="about">
+        <div class="box">
+
+          <div class="container">
+            <div class="about__inner">
+
+              <div class="about__pic-and-decor-box">
+                <picture class="about__scheme-box">
+                  <source type="image/webp" srcset="./images/about-scheme-1170.webp" media="(min-width: 850px)">
+                  <source type="image/webp" srcset="./images/about-scheme-750.webp" media="(min-width: 480px)">
+                  <source type="image/webp" srcset="./images/about-scheme-320.webp" media="(min-width: 320px)">
+                  <img class="about__scheme-img" src="./images/about-scheme-1170.png" alt="services">
+                </picture>
+              </div>
+
+              <div class="decor-box about__decor-box">
+                <div class="decor-box__item decor-box__item--up"></div>
+                <div class="decor-box__item decor-box__item--down"></div>
+              </div>
+
+              <div class="about__content">
+
+                <h2 class="section-title about-title">1. О нас</h2>
+
+                <h3 class="section-description  about__description">Полный спектр услуг — от дизайна до печати</h3>
+
+                <p class="text about__text">К вашим услугам мы предлагаем полный спектр работ, начиная от печати
+                  открыток,
+                  чертежей, баннеров, растяжек, создания буклетов и эксклюзивных календарей, и заканчивая постпечатной
+                  обработкой.</p>
+
+                <p class="text about__text">В копицентре не просто предоставляют услуги печати: мы ориентируемся на
+                  комплексное обслуживание. Все услуги, будь то оперативная цифровая печать открыток или разработка
+                  серии календарей, Вы можете получить в одном месте, воспользовавшись сопутствующими услугами
+                  копицентра. </p>
+
+                <p class="text about__text">При этом работа выполняется в максимально сжатые сроки и не в ущерб качеству
+                  конечного результата, которое неизменно остается на высоте.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="toggler-box-placement-wrapper">
+            <div class="toggler-box">
+
+              <label class="custom-radio-label" for="about1">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="about1" data-section="#header">
+
+                <span class="custom-radio-style" data-section="#header"></span>
+              </label>
+
+              <label class="custom-radio-label" for="about2">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="about2" data-mark="#about"
+                  data-section="#about">
+
+                <span class="custom-radio-style"></span>
+              </label>
+
+              <label class="custom-radio-label" for="about3">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="about3" data-section="#services">
+
+                <span class="custom-radio-style" data-section="#services"></span>
+              </label>
+
+              <label class="custom-radio-label" for="about4">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="about4"
+                  data-section="#interior-printing">
+
+                <span class="custom-radio-style" data-section="#interior-printing"></span>
+              </label>
+
+              <label class="custom-radio-label" for="about5">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="about5"
+                  data-section="#operative-polygraphy">
+
+                <span class="custom-radio-style" data-section="#operative-polygraphy"></span>
+              </label>
+
+              <label class="custom-radio-label" for="about6">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="about6" data-section="#testimonials">
+
+                <span class="custom-radio-style" data-section="#testimonials"></span>
+              </label>
+
+              <label class="custom-radio-label" for="about7">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="about7" data-section="#faq">
+
+                <span class="custom-radio-style" data-section="#faq"></span>
+              </label>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="box box-services">
+          <div class="container">
+            <div class="services__inner">
+              <div class="services__content">
+                <h2 class="section-title services__title">
+                  2. Услуги
+                </h2>
+                <h3 class="section-description services-description">
+                  Широкоформатная печать баннеров, растяжек, афиш
+                </h3>
+                <ul class="services__list">
+                  <li class="services__item">подготовка макетов к печати, дизайн рекламных баннеров</li>
+                  <li class="services__item">срочная печать за 3 часа</li>
+                  <li class="services__item">проварка карманов и сварка нескольких изображений</li>
+                  <li class="services__item">пробивка люверсов и вварка монтажных тросов</li>
+                  <li class="services__item">изготовление цветопробы</li>
+                  <li class="services__item">доставка баннеров</li>
+                </ul>
+
+                <div class="actions-box services__actions-box services__actions-box--desctop">
+                  <div class="actions__info">
+                    <p class="question action-question">Есть вопросы?</p>
+                    <p class="action-call-order services__order">Закажите консультацию</p>
+                  </div>
+                  <button class="act-btn services-btn">Заказать</button>
+                </div>
+
+              </div>
+              <div class="services__slider">
+
+                <div class="container-slider">
+                  <div class="card-stack">
+
+                    <a class="buttons prev" href="#!">
+                      <img class="button__prev-img" src="./images/services-alider-arrow-next.svg" alt="prev">
+                    </a>
+                    <ul class="card-list">
+                      <li class="card">
+                        <img src="./images/garden.jpg" alt="Sun" class="card-list__image">
+
+                        <p class="card-list__text">Watch your way toward success as you excel above your
+                          competitors.</p>
+                      </li>
+                      <li class="card">
+                        <img src="./images/firehorse.jpg" alt="Sun" class="card-list__image">
+
+                        <p class="card-list__text">Relax and chill, we've got you covered :) </p>
+                      </li>
+                      <li class="card">
+                        <img src="./images/cat.jpg" alt="cat" class="card-list__image">
+
+                        <p class="card-list__text"> Boost your social networking presence</p>
+                      </li>
+
+                      <li class="card">
+                        <img src="./images/1591943109_priyatnye-snimki-dlya-perfekcionistov-10.jpg" alt="Sun"
+                          class="card-list__image">
+
+                        <p class="card-list__text"> Be at the top of your competitors</p>
+
+                      </li>
+                      <li class="card">
+
+                        <img class="card-list__image" src="./images/services-slider-image.jpg" alt="">
+
+                        <p class="card-list__text">Растяжка на ул. Ленина</p>
+
+                      </li>
+                    </ul>
+
+                    <a class="buttons next" href="#!">
+                      <img class="button__next-img" src="./images/services-alider-arrow-prev.svg" alt="next">
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="actions-box services__actions-box services__actions-box--mobile">
+                <div class="actions__info">
+                  <p class="question action-question">Есть вопросы?</p>
+                  <p class="action-call-order services__order">Закажите консультацию</p>
+                </div>
+                <button class="act-btn services-btn">Заказать</button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="toggler-box-placement-wrapper">
+            <div class="toggler-box">
+
+              <label class="custom-radio-label" for="services1">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="services1" data-section="#header">
+
+                <span class="custom-radio-style" data-section="#header"></span>
+              </label>
+
+              <label class="custom-radio-label" for="services2">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="services2" data-mark="#about"
+                  data-section="#about">
+
+                <span class="custom-radio-style" data-section="#about"></span>
+              </label>
+
+              <label class="custom-radio-label" for="services3">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="services3" data-mark="#services">
+
+                <span class="custom-radio-style"></span>
+              </label>
+
+              <label class="custom-radio-label" for="services4">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="services4"
+                  data-section="#interior-printing">
+
+                <span class="custom-radio-style" data-section="#interior-printing"></span>
+              </label>
+
+              <label class="custom-radio-label" for="services5">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="services5"
+                  data-section="#operative-polygraphy">
+
+                <span class="custom-radio-style" data-section="#operative-polygraphy"></span>
+              </label>
+
+              <label class="custom-radio-label" for="services6">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="services6"
+                  data-section="#testimonials">
+
+                <span class="custom-radio-style" data-section="#testimonials"></span>
+              </label>
+
+              <label class="custom-radio-label" for="services7">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="services7" data-section="#faq">
+
+                <span class="custom-radio-style" data-section="#faq"></span>
+              </label>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="interior-printing" id="interior-printing">
+        <div class="box box-interior-printing">
+          <div class="container">
+            <div class="interior-printing__inner">
+              <div class="interior-printing__content">
+                <h3 class="section-description interior-printing-description">
+                  Широкоформатная печать для вашего интерьера
+                </h3>
+                <p class="text interior-printing__text">
+                  Печатаем широкоформатные фотографии на глянцевой и матовой фотобумаге разной плотности, на глянцевом и
+                  матовом холсте или на самоклеющейся пленке. также можем предложить обработку и редактирование ваших
+                  фотографий силами наших дизайнеров: композиции, фотоколлаж, ретушь, различные эффекты
+                </p>
+                <button class="act-btn interior-printing__btn">
+                  оставить заявку
+                </button>
+              </div>
+              <div class="decor-box interior__decor-box">
+                <div class="decor-box__item decor-box__item--up"></div>
+                <div class="decor-box__item decor-box__item--down"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="toggler-box-placement-wrapper">
+            <div class="toggler-box">
+
+              <label class="custom-radio-label" for="interior-printing1">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="interior-printing1"
+                  data-section="#header">
+
+                <span class="custom-radio-style" data-section="#header"></span>
+              </label>
+
+              <label class="custom-radio-label" for="interior-printing2">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="interior-printing2"
+                  data-mark="#about" data-section="#about">
+
+                <span class="custom-radio-style" data-section="#about"></span>
+              </label>
+
+              <label class="custom-radio-label" for="interior-printing3">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="interior-printing3"
+                  data-section="#services">
+
+                <span class="custom-radio-style" data-section="#services"></span>
+              </label>
+
+              <label class="custom-radio-label" for="interior-printing4">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="interior-printing4"
+                  data-mark="#interior-printing" data-section="#interior-printing">
+
+                <span class="custom-radio-style" data-section="#interior-printing"></span>
+              </label>
+
+              <label class="custom-radio-label" for="interior-printing5">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="interior-printing5"
+                  data-section="#operative-polygraphy">
+
+                <span class="custom-radio-style" data-section="#operative-polygraphy"></span>
+              </label>
+
+              <label class="custom-radio-label" for="interior-printing6">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="interior-printing6"
+                  data-section="#testimonials">
+
+                <span class="custom-radio-style" data-section="#testimonials"></span>
+              </label>
+
+              <label class="custom-radio-label" for="interior-printing7">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="interior-printing7"
+                  data-section="#faq">
+
+                <span class="custom-radio-style" data-section="#faq"></span>
+              </label>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="operative-polygraphy" id="operative-polygraphy">
+        <div class="box box-operative-polygraphy">
+          <div class="container">
+            <div class="operative-polygraphy__inner">
+
+              <div class="operative-polygraphy__content">
+
+                <h3 class="section-description operative-polygraphy__description">
+                  Оперативная полиграфия — от визитки до баннера
+                </h3>
+                <p class="text operative-polygraphy__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+                <p class="text operative-polygraphy__text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                  laborum. Sed ut perspiciatis unde omnis iste natus error.
+                </p>
+
+                <picture class="operative-polygraphy-img-box">
+                  <source type="image/webp" srcset="./images/services-polygrafy-320.webp" media="(max-width: 619px)">
+                  <img class="operative-polygraphy-img" src="./images/services-polygrafy-320.png" alt="polygraphy">
+                </picture>
+
+                <p class="question operative-polygraphy__question">
+                  Есть вопросы?
+                </p>
+                <p class="action-call-order operative-polygraphy__order-text">
+                  Оставьте заявку на консультацию
+                </p>
+
+
+                <form action="#" class="operative-polygraphy__form">
+
+                  <input type="text" class="operative-polygraphy__input operative-polygraphy_name" placeholder="Имя">
+
+                  <input type="text" class="operative-polygraphy__input operative-polygraphy_name"
+                    placeholder="Телефон">
+
+                  <button class="act-btn operative-polygraphy__btn">
+                    Отправить
+                  </button>
+
+                </form>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="toggler-box-placement-wrapper">
+            <div class="toggler-box">
+
+              <label class="custom-radio-label" for="operative-polygraphy1">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="operative-polygraphy1"
+                  data-section="#header">
+
+                <span class="custom-radio-style" data-section="#header"></span>
+              </label>
+
+              <label class="custom-radio-label" for="operative-polygraphy2">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="operative-polygraphy2"
+                  data-mark="#about" data-section="#about">
+
+                <span class="custom-radio-style" data-section="#about"></span>
+              </label>
+
+              <label class="custom-radio-label" for="operative-polygraphy3">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="operative-polygraphy3"
+                  data-mark="#services" data-section="#services">
+
+                <span class="custom-radio-style" data-section="#about"></span>
+              </label>
+
+              <label class="custom-radio-label" for="operative-polygraphy4">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="operative-polygraphy4"
+                  data-section="#interior-printing">
+
+                <span class="custom-radio-style" data-section="#interior-printing"></span>
+              </label>
+
+              <label class="custom-radio-label" for="operative-polygraphy5">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="operative-polygraphy5"
+                  data-mark="#operative-polygraphy" data-section="#operative-polygraphy">
+
+                <span class="custom-radio-style" data-section="#operative-polygraphy"></span>
+              </label>
+
+              <label class="custom-radio-label" for="operative-polygraphy6">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="operative-polygraphy6"
+                  data-section="#testimonials">
+
+                <span class="custom-radio-style" data-section="#testimonials"></span>
+              </label>
+
+              <label class="custom-radio-label" for="operative-polygraphy7">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="operative-polygraphy7"
+                  data-section="#faq">
+
+                <span class="custom-radio-style" data-section="#faq"></span>
+              </label>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="box box-testimonials">
+          <div class="container">
+            <div class="testimonials__inner">
+              <h2 class="section-title testimonials__title">
+                3. Отзывы
+              </h2>
+              <div class="testimonials-slider-wrapper">
+                <div class="testimonials__slider-box">
+                  <div class="testimonials__slider">
+                    <div class="testimonials__slide">
+                      <div class="testimonials__slider-item">
+                        <img class="testimonials__avatar" src="./images/testimoniaals-avatar-1.svg" width="136"
+                          height="136" alt="avatar">
+                        <div class="testimonials__info">
+                          <p class="testimonials__text">
+                            Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал,
+                            не
+                            знал, с чего начать. Остался доволен, потому что мне всё объяснили, показали и сделали по
+                            высшему разряду. Советую!
+                          </p>
+                          <p class="testimonials__author">
+                            Александров Максим, 24 года
+                          </p>
+                          <a class="testimonials__author-link" href="#">
+                            vk.com/mr.sharp
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonials__slide">
+                      <div class="testimonials__slider-item">
+                        <img class="testimonials__avatar" src="./images/testimoniaals-avatar-1.svg" width="136"
+                          height="136" alt="avatar">
+                        <div class="testimonials__info">
+                          <p class="testimonials__text">
+                            Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал,
+                            не
+                            знал, с чего начать. Остался доволен, потому что мне всё объяснили, показали и сделали по
+                            высшему разряду. Советую!
+                          </p>
+                          <p class="testimonials__author">
+                            Александров Максим, 24 года
+                          </p>
+                          <a class="testimonials__author-link" href="#">
+                            vk.com/mr.sharp
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonials__slide">
+                      <div class="testimonials__slider-item">
+                        <img class="testimonials__avatar" src="./images/testimoniaals-avatar-1.svg" width="136"
+                          height="136" alt="avatar">
+                        <div class="testimonials__info">
+                          <p class="testimonials__text">
+                            Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал,
+                            не
+                            знал, с чего начать. Остался доволен, потому что мне всё объяснили, показали и сделали по
+                            высшему разряду. Советую!
+                          </p>
+                          <p class="testimonials__author">
+                            Александров Максим, 24 года
+                          </p>
+                          <a class="testimonials__author-link" href="#">
+                            vk.com/mr.sharp
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonials__slide">
+                      <div class="testimonials__slider-item">
+                        <img class="testimonials__avatar" src="./images/testimoniaals-avatar-1.svg" width="136"
+                          height="136" alt="avatar">
+                        <div class="testimonials__info">
+                          <p class="testimonials__text">
+                            Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал,
+                            не
+                            знал, с чего начать. Остался доволен, потому что мне всё объяснили, показали и сделали по
+                            высшему разряду. Советую!
+                          </p>
+                          <p class="testimonials__author">
+                            Александров Максим, 24 года
+                          </p>
+                          <a class="testimonials__author-link" href="#">
+                            vk.com/mr.sharp
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonials__slide">
+                      <div class="testimonials__slider-item">
+                        <img class="testimonials__avatar" src="./images/testimoniaals-avatar-1.svg" width="136"
+                          height="136" alt="avatar">
+                        <div class="testimonials__info">
+                          <p class="testimonials__text">
+                            Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал,
+                            не
+                            знал, с чего начать. Остался доволен, потому что мне всё объяснили, показали и сделали по
+                            высшему разряду. Советую!
+                          </p>
+                          <p class="testimonials__author">
+                            Александров Максим, 24 года
+                          </p>
+                          <a class="testimonials__author-link" href="#">
+                            vk.com/mr.sharp
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="toggler-box-placement-wrapper">
+            <div class="toggler-box">
+
+              <label class="custom-radio-label" for="testimonials1">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="testimonials1"
+                  data-section="#header">
+
+                <span class="custom-radio-style" data-section="#header"></span>
+              </label>
+
+              <label class="custom-radio-label" for="testimonials2">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="testimonials2" data-mark="#about"
+                  data-section="#about">
+
+                <span class="custom-radio-style" data-section="#about"></span>
+              </label>
+
+              <label class="custom-radio-label" for="testimonials3">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="testimonials3" data-mark="#services"
+                  data-section="#services">
+
+                <span class="custom-radio-style" data-section="#about"></span>
+              </label>
+
+              <label class="custom-radio-label" for="testimonials4">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="testimonials4"
+                  data-section="#interior-printing">
+
+                <span class="custom-radio-style" data-section="#interior-printing"></span>
+              </label>
+
+              <label class="custom-radio-label" for="testimonials5">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="testimonials5"
+                  data-mark="#operative-polygraphy" data-section="#operative-polygraphy">
+
+                <span class="custom-radio-style" data-section="#operative-polygraphy"></span>
+              </label>
+
+              <label class="custom-radio-label" for="testimonials6">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="testimonials6"
+                  data-mark="#testimonials" data-section="#testimonials">
+
+                <span class="custom-radio-style" data-section="#testimonials"></span>
+              </label>
+
+              <label class="custom-radio-label" for="testimonials7">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="testimonials7" data-section="#faq">
+
+                <span class="custom-radio-style" data-section="#faq"></span>
+              </label>
+
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="box box-faq">
+          <div class="container">
+            <div class="faq__inner">
+              <h2 class="section-title faq-title">
+                4. Частые вопросы (FAQ)
+              </h2>
+
+              <div class="faq__content">
+                <div class="faq__item">
+                  <div class="faq__item-title">
+                    Что такое макет?
+                  </div>
+                  <p class="faq__item-text">
+                    Макет — это будущее печатное изделие в электронном формате. Верстают (собирают) макет в
+                    специализированном программном обеспечении.
+                  </p>
+                </div>
+                <div class="faq__item">
+                  <div class="faq__item-title">
+                    У меня есть готовый макет
+                  </div>
+                  <p class="faq__item-text">
+                    Вы можете привезти его к нам в офис на любом удобном для вас носителе(диск, флешка). В присутствии
+                    вас мы обработаем ваш макет и отправим его в производство.
+                  </p>
+                </div>
+                <div class="faq__item">
+                  <div class="faq__item-title">
+                    У меня нет макета
+                  </div>
+                  <p class="faq__item-text">
+                    В нашем штате работают професиональные дизайнеры, которые с ваших слов или в вашем присутствии
+                    сверстают макет, который после утверждения также будет отправлен в печать.
+                  </p>
+                </div>
+                <div class="faq__item">
+                  <div class="faq__item-title">
+                    Сколько времени занимает печать?
+                  </div>
+                  <p class="faq__item-text">
+                    В том случае если изображение готово к печати, изготовление занимает около 3 часов. Также время
+                    изготовления зависит от нашей загруженности.
+                  </p>
+                </div>
+                <div class="faq__item">
+                  <div class="faq__item-title">
+                    Я не могу приехать к вам в офис
+                  </div>
+                  <p class="faq__item-text">
+                    Отправьте нам изображение по электронной почте, укажите свой телефон. Мы свяжемся с вами для
+                    уточнения деталей. Готовое изделие мы доставим вам курьером.
+                  </p>
+                </div>
+                <div class="faq__item">
+                  <div class="faq__item-title">
+                    Вызов курьера бесплатный?
+                  </div>
+                  <p class="faq__item-text">
+                    В зависимости от соимости заказа, курьер может доставить вам продукцию бесплатно (при соимости от
+                    600 руб.) или от 150 руб. в пределах Ярославля и до 500 руб. в пределах Ярославской области.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq__order-box">
+
+                <img class="faq__order-img" src="./images/question.svg.png" alt="question">
+
+                <div class="faq__order-content-inner">
+
+                  <div class="faq__order-content">
+                    <h2 class="question faq__question">
+                      Остались вопросы?
+                    </h2>
+                    <p class="action-call-order faq__call-order">
+                      Оставьте заявку на консультацию
+                    </p>
+                  </div>
+
+                  <form action="#" class="faq__form">
+                    <input type="text" class="faq__input" placeholder="Имя">
+                    <input type="text" class="faq__input" placeholder="Телефон">
+                    <button class="act-btn faq__btn">Отправить</button>
+                  </form>
+
+                </div>
+              </div>
+
+              <div class="decor-box faq__decor-box">
+                <div class="decor-box__item decor-box__item--up"></div>
+                <div class="decor-box__item decor-box__item--down"></div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="toggler-box-placement-wrapper">
+            <div class="toggler-box">
+
+              <label class="custom-radio-label" for="faq1">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="faq1" data-section="#header">
+
+                <span class="custom-radio-style" data-section="#header"></span>
+              </label>
+
+              <label class="custom-radio-label" for="faq2">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="faq2" data-mark="#about"
+                  data-section="#about">
+
+                <span class="custom-radio-style" data-section="#about"></span>
+              </label>
+
+              <label class="custom-radio-label" for="faq3">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="faq3" data-mark="#services"
+                  data-section="#services">
+
+                <span class="custom-radio-style" data-section="#about"></span>
+              </label>
+
+              <label class="custom-radio-label" for="faq4">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="faq4"
+                  data-section="#interior-printing">
+
+                <span class="custom-radio-style" data-section="#interior-printing"></span>
+              </label>
+
+              <label class="custom-radio-label" for="faq5">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="faq5"
+                  data-mark="#operative-polygraphy" data-section="#operative-polygraphy">
+
+                <span class="custom-radio-style" data-section="#operative-polygraphy"></span>
+              </label>
+
+              <label class="custom-radio-label" for="faq6">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="faq6" data-mark="#testimonials"
+                  data-section="#testimonials">
+
+                <span class="custom-radio-style" data-section="#testimonials"></span>
+              </label>
+
+              <label class="custom-radio-label" for="faq7">
+                <input class="custom-radio" type="radio" name="my-radio-group" id="faq7" data-mark="#faq"
+                  data-section="#faq">
+
+                <span class="custom-radio-style" data-section="#faq"></span>
+              </label>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__map">
+
+          <iframe class="custom-map"
+            src="https://www.google.com/maps/d/embed?mid=1YJVX3PJtwqclg0nYrqORz9d5cF6bBgQ&hl=ru&ehbc=2E312F"
+            width="100%" height="645"></iframe>
+
+
+          <div class="footer__contacts">
+            <h2 class="section-title footer__title">
+              5. Контакты
+            </h2>
+            <ul class="footer__contacts-list">
+              <li class="footer__contacts-item">
+                <img class="footer__contacts-icon" src="./images/contacts-pin.svg" alt="address">
+                <span class="footer__contacts-link">
+                  г. Ярославль, проспект Октября, 88
+                </span>
+              </li>
+              <li class="footer__contacts-item">
+                <img class="footer__contacts-icon" src="./images/contacts-mail.svg" alt="mail">
+                <a class="footer__contacts-link" href="mailto:art-aktiv.76@mail.ru">
+                  art-aktiv.76@mail.ru
+                </a>
+              </li>
+              <li class="footer__contacts-item">
+                <img class="footer__contacts-icon" src="./images/contacts-phone.svg" alt="phone">
+                <a class="footer__contacts-link" href="tel:+79201488131">
+                  +7 (920) 148 81 31
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__policy">
+          <div class="container">
+            <div class="footer__policy-inner">
+
+              <a class="footer__policy-link" href="#!">
+                ООО «АртАктив», 2017 ©
+              </a>
+              <a class="footer__policy-link" href="#!">
+                Политика конфиденциальноси
+              </a>
+              <a class="footer__policy-link footer__policy-link--author" href="#!">
+                Designed by Sergey Strogiy
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="module" src="js/main.min.js"></script>
+</body>
+
+</html>
